@@ -19,7 +19,6 @@ st.set_page_config(
     page_icon="🧮"
 )
 st.title("🧮 Text To Math Problem Solver Using Llama 3")
-st.secrets["GROQ_API_KEY"]
 
 groq_api_key = st.sidebar.text_input(label="Groq API Key", type="password")
 

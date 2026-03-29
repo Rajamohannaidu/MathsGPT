@@ -19,9 +19,6 @@ pandas
 openai
 langchain-groq
 duckduckgo_search
-pymupdf
-arxiv
-wikipedia
 mysql-connector-python
 SQLAlchemy
 validators
@@ -30,4 +27,7 @@ unstructured
 pytube
 numexpr
 huggingface_hub
-streamlit
+
+# ✅ FIXES
+streamlit>=1.32.0
+altair<5
